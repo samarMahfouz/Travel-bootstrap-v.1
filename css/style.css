@@ -1,0 +1,342 @@
+/* ================================ */
+/* Start main info. */
+/*
+  *** Design name : Deniz - دنيز
+  *** Coder designer: samar mahfouz - سمر محفوظ
+  *** Used: html, css, jQuery and bootstrap
+  *** Last update : 11/8/2020 tuesday
+*/
+/*  End main info. */
+/* ================================ */
+/************* start main rules **************/
+body{
+	font-family: arial, 'Raleway', sans-serif;
+}
+/* .container{margin:auto} */
+*{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	     -o-box-sizing:border-box;
+	    -ms-box-sizing:border-box;
+	        box-sizing:border-box;
+
+}
+img{ width: 100%;}
+/************** end main rules **************/
+
+/*** start navbar ***/
+.navbar{
+	border-radius:0;
+	background-color: #0d29ca;
+	border:0;
+	margin-bottom: 0
+}
+.navbar-default .navbar-brand{color: #fffefe; letter-spacing: -2px; font-weight: bold}
+.navbar-default .navbar-brand:hover{color: rgb(65, 193, 226); text-transform: uppercase;  text-shadow: 1px 4px 15px #28a2e4}
+.navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus
+	{color:blue !important; background-color:white}
+	@media (min-width: 768px)
+	{
+		  .navbar-nav > li > a{
+	    	color:white!important;
+		}
+		.navbar-default .navbar-brand,
+		.navbar-default .navbar-nav>li>a{
+			text-transform: capitalize
+		}
+		.navbar-default .navbar-nav > .active{background-color: #fffefe; color:blue; font-weight:bold}
+		.navbar-default .navbar-nav>li>a:hover{
+				border-bottom: 2px solid white !important;
+			font-size: 15px !important;
+			font-weight: bold;
+		}
+	}
+	@media (max-width: 767px){
+		.navbar-default .navbar-brand,
+		.navbar-default .navbar-nav>li>a{
+			color:white !important;
+			text-transform: capitalize
+		}
+		.navbar-default .navbar-nav>li>a:hover{
+			color:blue !important;
+				background-color: white !important;
+			font-size: 15px !important;
+			font-weight: bold;
+			text-align: center
+		}
+	}
+	/*** End navbar ***/
+	/*** start header ***/
+	header h1 {
+		font-size: 22px !important;
+		font-weight: bold;
+		font-style:italic;
+	}
+	header button {
+		margin-top: 74px;
+		background-color: blue;
+		border: 0 !important;
+		border-radius: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+/*** end navbar ***/
+
+/*** start header ***/
+header{
+	background:url(../images/pexels-photo-248797.jpeg) top center no-repeat;
+	height:100vh;
+  -webkit-box-shadow: 0px 2px 100px #1fcbff;
+     -moz-box-shadow: 0px 2px 100px #1fcbff;
+	     -o-box-shadow: 0px 2px 100px #1fcbff;
+		      box-shadow: 0px 2px 100px #1fcbff
+}
+
+header button{
+	color:white
+}
+header p{
+	margin-top: 18vh;
+  margin-left: 196px;
+  margin-right: 27vh;
+  background-color: #41c1e2;
+  padding: 5px 5px 0;
+  color: white;
+	text-align: center
+}
+header p span{font-size: 10px;  color: #0a34d4}
+@media(max-width:881px){
+	header h1 {padding-top: 24vh; font-size: 24px; color:#c8cfff}
+	header button{
+		padding:5px 10px
+	}
+	header p{
+		margin-top: 17vh;
+        margin-left: 0;
+    	margin-right:0;
+		font-size: 14px !important;
+	}
+}
+@media (min-width: 768px){
+	header h1{
+		margin-top:0;
+		padding-top: 49vh;
+		color: #4b92fd;
+	}
+	header button{
+	background-color: rgba(255, 150, 0, 0.66);
+	border: 3px solid rgba(255, 150, 0, 0.66);
+	padding: 5px 54px;
+    margin-left: 100px;
+		margin-top: 30px;
+	}
+}
+/*** end header ***/
+/************** end header style **************/
+
+/************** START offers SECTION **************/
+.offers{
+	padding-bottom: 55px;
+	color: #656262;
+	position: relative;
+	padding-top: 55px;
+	border: 1px solid #c2fcff;
+	background-color:rgba(182, 247, 255, 0.3);
+  box-shadow: 1px 4px 19px #def7ff
+
+}
+.offers h2, .testim h2, .sec-gallery h2{
+	margin-bottom: 40px;
+	color: #2020a0;
+	font-weight: bold;
+	font-size: 46px;
+  text-transform: capitalize;
+	font-family: 'Dancing Script', cursive
+}
+.offers h3, .testim .con .info h3{
+ text-transform: capitalize;
+  color: #6060e2;
+  font-weight: bold;
+	font-family: 'Dancing Script', cursive
+}
+.offers .oddy-style{
+	margin-bottom: 50px;
+}
+.offers .content{
+   padding-left: 12px;
+   padding-bottom: 15px;
+	 position: relative;
+	 cursor:pointer
+}
+.offers button{
+    background-color: transparent;
+    color: #1654d8;
+    font-size: 20px;
+    margin-top: 55px;
+		border: 0;
+    background-color: #2020a0;
+    border-radius: 10px;
+    color: white;
+    padding: 9px 13px;
+    text-transform: capitalize;
+    position: absolute;
+    right: 32px;
+    bottom: 1px;
+    margin-bottom: 15px
+}
+.offers .content .over{background-color: rgba(29, 26, 197, 0.9); font-size: 29px; line-height: 15}
+.offers .content h2{color: #286db8; text-transform: capitalize; margin-bottom: 20px}
+.offers img{  max-height: 450px}
+/************** End offers SECTION **************/
+/************** START gallery SECTION **************/
+.sec-gallery{position:relative; padding-top: 55px; padding-bottom: 55px}
+.sec-gallery .con{margin-bottom: 20px}
+.sec-gallery i{
+	display: none;
+	position: relative;
+	top: 27px;
+	left: 7px;
+	font-size: 22px;
+	color: white;
+  z-index: 9999
+}
+ .over{
+	position: absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color:rgba(29, 26, 197, 0.6);
+	width:100%;
+	height:100%;
+	display: none;
+	line-height: 8;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+	cursor:pointer
+}
+.sec-gallery .gallery:hover .over, .offers .content:hover .over{display:block}
+/************** END gellery SECTION **************/
+/************** Start contact us SECTION **************/
+.contact-us{padding:55px 10px; background-color:#32c8df}
+.contact-us .container{margin: 20px auto;  max-width: 700px}
+.contact-us h2{
+  margin-bottom: 40px;
+	letter-spacing: -2px;
+  text-transform: capitalize;
+  color: #2020a0;
+  font-weight: bold;
+  font-size: 46px;
+	font-family: 'Dancing Script', cursive
+}
+.testim .t-overlay{padding: 55px 10px}
+.testim .con{
+	padding-top: 30px;
+  padding-bottom: 30px;
+  border: 2px solid whitesmoke;
+	overflow: hidden;
+	display: none
+}
+.testim .active{display:block}
+.testim .con .info{
+	width: 30%;
+  float: left;
+	overflow: hidden;
+	margin-top: 26px;
+}
+.testim .con .info img{float:left; display: inline-block;  margin-left: 12px}
+.testim .con .info h3{
+	width: 67%;
+  float: left;
+  padding-left: 12px;
+  padding-top: 17px
+}
+.testim .con .info img{width: 100px;  height: 100px;  border-radius: 50%}
+.testim .con .info p{color: grey;  margin-top: 15px;  padding: 5px; margin-left: 23px}
+.testim .con .image{	width: 70%; float: left;	padding-right: 20px}
+.contact-form .form-group{margin-bottom: 0; position:relative}
+.contact-form .form-group .asterisk{
+	position: absolute;
+  top: 2px;
+  right: 6px;
+  color: #2020a0;
+  font-size: 32px;
+}
+@media(max-width:767px){
+		.testim{display:none}
+	.offers h2, .testim h2, .sec-gallery h2{font-size:29px}
+	.offers .content{border:0}
+	.offers img{
+		width:100%
+	}
+	.contact-us h2{
+		font-size: 35px;
+		margin-bottom: 16px
+	}
+}
+.contact-form input,
+.contact-form textarea{margin-bottom: 10px}
+.contact-form textarea{height:160px !important}
+.contact-form input:not([type="submit"]) + i{
+	height: 0;
+    float: left;
+    position: relative;
+    top: -34px;
+    left: 10px;
+    color: #2020a0
+}
+.contact-form input{padding-left: 32px}
+.contact-form input[type="submit"]{text-transform: capitalize}
+.contact-form .send-icon{
+	display:block;
+	position:relative;
+	color:white;
+	top: 24px;
+  left: 5px
+}
+.error{
+	background-color:#fdb6b6;
+	font-weight:bold;
+	color:black;
+	padding:10px;
+	text-align: center;
+	text-transform: capitalize;
+	margin-top:10px;
+	margin-bottom:10px
+}
+.infos{color:white; background-color: #0093bf;  border-color: #68dcff}
+/************** End contact us SECTION **************/
+/************** Start footer **************/
+footer{
+  background-color: #2020a0;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 15px
+}
+footer .rigths{ display:inline-block; margin-right: 46px}
+footer span i{font-size:20px !important; margin-top:7px}
+footer .facebook{color: #fff}
+footer .twitter{color: #1da1f2}
+footer .youtube{color: #ff0000}
+/************** End footer **************/
+/************** Start media query **************/
+
+/************** End media query **************/
+/************** start my frame work **************/
+.text-cap{text-transform: capitalize}
+/**** color and background-color ****/
+.background-size{
+	-webkit-background-size:cover;
+	   -moz-background-size:cover;
+	     -o-background-size:cover;
+	    -ms-background-size:cover;
+	        background-size:cover;
+}
+/************** end my frame work **************/
